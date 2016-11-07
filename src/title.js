@@ -27,6 +27,8 @@ var title = cc.Layer.extend({
     var sparkle_frames2 = new cc.Sprite(res.sparkle_frames_png);
     sparkle_frames2.setPosition(cc.p(size.width * 0.72, size.height * 0.67));
     var sparkle_frames_layer = cc.Layer.create();
+    sparkle_frames.runAction(cc.repeatForever(cc.Blink.create(0.1,1)));
+    sparkle_frames2.runAction(cc.repeatForever(cc.Blink.create(0.1,1)));
     sparkle_frames_layer.addChild(sparkle_frames);
     sparkle_frames_layer.addChild(sparkle_frames2);
     this.addChild(sparkle_frames_layer);
@@ -63,27 +65,6 @@ var title = cc.Layer.extend({
       play_label.setOpacity(255);
       play_flg = false;
     }
-  }
-});
-
-//パーティクル用のレイヤー
-var particleLayer = cc.Layer.extend({
-
-  ctor: function() {
-    this._super();
-    size = cc.winSize;
-    this.scheduleUpdate();
-    return true;
-  },
-  update: function(_dt) {
-     this.Particle();
-  },
-  Particle: function() {
-      var tempParticle = new cc.ParticleSystem(res.particle_dot_png);
-      tempParticle.setPosition(size.width * 0.5, size.height * 0.6);
-      //tempParticle.setDuration(5);
-      this.addChild(tempParticle, 20);
-      //tempParticle.setAutoRemoveOnFinish(true);
   }
 });
 

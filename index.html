@@ -24,7 +24,7 @@
                   cc.view.resizeWithBrowserSize(true);
 
                   cc.LoaderScene.preload(g_resources, function () {
-                       cc.director.runScene(new gameScene());
+                       cc.director.runScene(new titleScene());
                   }, this);
               };
               cc.game.run("gameCanvas");
