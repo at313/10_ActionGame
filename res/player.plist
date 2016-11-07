@@ -4,27 +4,159 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>player01</key>
+            <key>player00</key>
             <dict>
                 <key>frame</key>
-                <string>{{0,0},{96,96}}</string>
+                <string>{{0,384},{190.5,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceSize</key>
-                <string>{96,96}</string>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player01</key>
+            <dict>
+                <key>frame</key>
+                <string>{{190.5,384},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
             </dict>
             <key>player02</key>
             <dict>
                 <key>frame</key>
-                <string>{{96,0},{96,96}}</string>
+                <string>{{381,384},{190.5,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceSize</key>
-                <string>{96,96}</string>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player03</key>
+            <dict>
+                <key>frame</key>
+                <string>{{571.5,384},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player04</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,256},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player05</key>
+            <dict>
+                <key>frame</key>
+                <string>{{190.5,256},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player06</key>
+            <dict>
+                <key>frame</key>
+                <string>{{381,256},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player07</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,128},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player08</key>
+            <dict>
+                <key>frame</key>
+                <string>{{190.5,128},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player09</key>
+            <dict>
+                <key>frame</key>
+                <string>{{381,128},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player10</key>
+            <dict>
+                <key>frame</key>
+                <string>{{571.5,128},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player11</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player12</key>
+            <dict>
+                <key>frame</key>
+                <string>{{190.5,0},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
+            </dict>
+            <key>player13</key>
+            <dict>
+                <key>frame</key>
+                <string>{{381,0},{190.5,128}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceSize</key>
+                <string>{190.5,128}</string>
             </dict>
         </dict>
         <key>metadata</key>
